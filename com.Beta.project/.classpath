@@ -17,6 +17,7 @@
 	<classpathentry kind="src" path="BAppMydrivers"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -28,5 +29,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Selenium_Jar_Files/Ashot_Jar/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Jar_Files/log4j/log4j.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
