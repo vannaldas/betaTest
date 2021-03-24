@@ -42,7 +42,8 @@ public class BeatAppLoginTest
     @Test
     public void verifylogin() throws Exception
     {
-appservices.clickloginlink();
+    	appservices=new BetaAppServices();
+       appservices.clickloginlink();
 		
 		Thread.sleep(3000);
 		appservices.clicksignuplink();
